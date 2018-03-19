@@ -1,0 +1,31 @@
+.zoom-area img {
+  max-width: 100%;
+}
+
+.zoom-area .image-wrapper {
+  margin: 40px;
+}
+
+.zoom-area .image-wrapper .image-container {
+  position: relative;
+}
+
+.zoom-area .image-wrapper .image-container img {
+  cursor: crosshair;
+}
+
+.zoom-area .zoom-image-container {
+  position: absolute;
+  top: 0;
+  border: 15px solid #fff;
+  box-shadow: 0 0 20px #aaa;
+  overflow: hidden;
+  z-index: 10000;
+}
+
+.zoom-area .zoom-image-container img {
+  width: auto;
+  max-width: none !important;
+  position: relative;
+  background: #fff;
+}

@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Zoom</title>
+		 <meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="css/all.css" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<div class="zoom-area">
+			<div class="image-wrapper" data-image-wrapper>
+				<div class="image-container" data-image-container>
+					<img
+						src="http://www.elimdengelenbudur.com//Downloads/large-1.jpg"
+						data-zoom
+						data-zoom-position="right"
+						data-zoom-factor="2"
+						data-image-width="300"
+						data-equal-zoom-image-size="true"
+					/>
+				</div>
+			</div>
+			<div class="image-wrapper" data-image-wrapper>
+				<div class="image-container" data-image-container>
+					<img
+						src="http://www.elimdengelenbudur.com//Downloads/large.jpg"
+						data-zoom
+						data-zoom-position="top"
+						data-zoom-factor="14"
+						data-image-width="100"
+						data-equal-zoom-image-size="false"
+					/>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script language="javascript" type="text/javascript" src="js/all.js"></script>
+	<script language="javascript" type="text/javascript">
+		$(document).ready(function() {
+   			$("[data-image-wrapper]").ImageZoom();
+		});
+	</script>
+</html>
