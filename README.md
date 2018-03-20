@@ -8,6 +8,4 @@ The data-zoom-factor defines the zooming factor.
 The data-image-width defines the width of the original image.
 And the data-equal-zoom-image-size defines, whether the zoomed image container should have the same size as the original image container or not.
 
-To initiate the image zoom just call $("[data-image-wrapper]").ImageZoom() after the DOM is ready.
-
 You can also se the demo.html.
