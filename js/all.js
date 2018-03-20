@@ -1,5 +1,7 @@
 (function (jQuery) {
-
+    $(document).ready(function() {
+        $("[data-image-wrapper]").ImageZoom();
+    });
     $.fn.ImageZoom = function () {
       var counter = 0;
         return this.each(function () {
